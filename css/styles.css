@@ -100,6 +100,8 @@ img {
         flex-basis: calc((100% - 72px) / 4);
 }
 
+
+
 .visually-hidden {
         position: absolute;
         width: 1px;
@@ -229,6 +231,10 @@ img {
         color: #434455;
 }
 
+.gallery {
+        padding-bottom: 120px;  
+}
+
 .title-gallery {
         font-weight: 700;
         font-size: 36px;
@@ -238,9 +244,19 @@ img {
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
 
         /* NAVY BLUE */
         color: #2E2F42;
+}
+
+.gallery-list {
+        display: flex;
+        gap: 24px;
+}
+
+.gallery-list-item {
+        flex-basis: calc((100% - 48px) / 3)
 }
 
 .title-team {
