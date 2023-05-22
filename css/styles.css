@@ -70,6 +70,11 @@ img {
         padding: 24px 0;
 }
 
+.contact-list {
+        display: flex;
+        gap: 40px;
+}
+
 .logo {
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -155,6 +160,7 @@ img {
         /* or 107% */
         text-align: center;
         letter-spacing: 0.02em;
+        max-width: 496px;
 
         color: #FFFFFF;
 }
@@ -296,7 +302,12 @@ img {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        background-color: #4D5AE5;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        background-color: #4d5ae5;
+        border-radius: 4px;
 
         /* WHITE */
         color: #FFFFFF;
@@ -308,6 +319,7 @@ img {
 
 .title {
         background-color: var(--tags-color);
+        padding: 188px 0;
 }
 
 .team {
