@@ -80,6 +80,36 @@ img {
         gap: 40px;
 }
 
+.section-portfolio {
+        padding-top: 96px;
+        padding-bottom: 120px;
+}
+
+.portfolio-list-bottons {
+        display: flex;
+        justify-content: center;        
+        gap: 24px;
+        margin-bottom: 72px;
+}
+
+.portfolio-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+}
+
+.list-portfolio-first {
+        width: calc((100% - 48px) / 3);
+}
+
+.div-portfolio {
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+        margin-bottom: 8px;
+}
+
 .hero {
         padding: 120px 0;
 }
@@ -177,6 +207,7 @@ img {
 .buttons-section:focus {
         color: #FFFFFF;
         background-color: #404BBF;
+        border: 1px solid transparent;
 }
 
 .team-item {
@@ -308,6 +339,10 @@ img {
 
 .buttons-section {
         background: #f4f4fd;
+        padding: 12px 24px;
+        border: 1px solid #e7e9fc;
+        border-radius: 4px;
+
 }
 
 .buttons-section {
