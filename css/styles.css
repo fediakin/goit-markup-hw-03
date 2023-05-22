@@ -84,6 +84,22 @@ img {
         gap: 24px;
 }
 
+.hero-list-first {
+        flex-basis: calc((100% - 72px) / 4);
+}
+
+.hero-list-second {
+        flex-basis: calc((100% - 72px) / 4);
+}
+
+.hero-list-third {
+        flex-basis: calc((100% - 72px) / 4);
+}
+
+.hero-list-fourth {
+        flex-basis: calc((100% - 72px) / 4);
+}
+
 .visually-hidden {
         position: absolute;
         width: 1px;
@@ -195,6 +211,7 @@ img {
 
         /* identical to box height, or 120% */
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 
         /* NAVY BLUE */
         color: #2E2F42;
