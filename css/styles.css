@@ -60,6 +60,11 @@ img {
         align-items: center;
 }
 
+.header-navigation-portfolio {
+        display: flex;
+        align-items: center;
+}
+
 .menu-list {
         display: flex;
         gap: 40px;
@@ -392,6 +397,14 @@ img {
 
 .main-footer-list {
         max-width: 264px;
+}
+
+.main-header {
+        border-bottom: 1px solid #e7e9fc;
+}
+
+.header-portfolio {
+        display: flex;
 }
 
 .logo-footer {
