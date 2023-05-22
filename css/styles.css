@@ -17,13 +17,47 @@
 
 button {
         cursor: pointer;
-        font-family: inherit;
+}
+
+ul,ol {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+}
+
+h1,h2,h3,h4,p {
+        margin-top: 0;
+        margin-bottom: 0;
 }
 
 body {
         font-family: 'Roboto', sans-serif;
         color: var(--p-text);
         background: #ffffff;
+}
+
+img {
+        display: block;
+}
+
+.header {
+        border-bottom: 1px solid;
+}
+
+.header-container {
+        display: flex;
+}
+
+.container {
+        width: 1158px;
+        margin: 0;
+        padding: 0 15px;
+
+}
+
+.header-navigation {
+        display: flex;
+        align-items: center;
 }
 
 .logo {
