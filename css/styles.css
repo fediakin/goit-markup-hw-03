@@ -88,20 +88,6 @@ img {
         flex-basis: calc((100% - 72px) / 4);
 }
 
-.hero-list-second {
-        flex-basis: calc((100% - 72px) / 4);
-}
-
-.hero-list-third {
-        flex-basis: calc((100% - 72px) / 4);
-}
-
-.hero-list-fourth {
-        flex-basis: calc((100% - 72px) / 4);
-}
-
-
-
 .visually-hidden {
         position: absolute;
         width: 1px;
@@ -190,6 +176,17 @@ img {
 
 .team-item {
         background-color: #FFFFFF;
+        flex-basis: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-padding {
+        padding: 32px 16px;
+}
+
+.team-list {
+        display: flex;
+        gap: 24px;
 }
 
 
@@ -269,6 +266,7 @@ img {
         /* identical to box height, or 111% */
         text-align: center;
         letter-spacing: 0.02em;
+        margin-bottom: 72px;
 
         /* NAVY BLUE */
         color: #2E2F42;
@@ -282,6 +280,8 @@ img {
         /* identical to box height, or 120% */
         text-align: center;
         letter-spacing: 0.02em;
+        text-align: center;
+        margin-bottom: 8px;
 
         /* NAVY BLUE */
         color: #2E2F42;
@@ -295,6 +295,7 @@ img {
         /* identical to box height, or 150% */
         text-align: center;
         letter-spacing: 0.02em;
+        text-align: center;
 
         /* SLATE */
         color: #434455;
@@ -380,10 +381,17 @@ img {
 
 .team {
         background: var(--our-team-background);
+        padding: 120px 0
 }
+
 
 .main-footer {
         background-color: var(--tags-color);
+        padding: 100px 0;
+}
+
+.main-footer-list {
+        max-width: 264px;
 }
 
 .logo-footer {
@@ -398,6 +406,8 @@ img {
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 16px;
 
         /* IRIS */
         color: #4D5AE5;
