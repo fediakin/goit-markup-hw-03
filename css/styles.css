@@ -41,7 +41,7 @@ img {
 }
 
 .header {
-        border-bottom: 1px solid;
+        border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -50,7 +50,7 @@ img {
 
 .container {
         width: 1158px;
-        margin: 0;
+        margin: 0 auto;
         padding: 0 15px;
 
 }
@@ -58,6 +58,16 @@ img {
 .header-navigation {
         display: flex;
         align-items: center;
+}
+
+.menu-list {
+        display: flex;
+        gap: 40px;
+}
+
+.links {
+        display: block;
+        padding: 24px 0;
 }
 
 .logo {
@@ -72,6 +82,7 @@ img {
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-right: 76px;
 
         /* IRIS */
         color: #4D5AE5;
