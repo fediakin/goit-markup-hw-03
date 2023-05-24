@@ -420,7 +420,12 @@ img {
 .main-footer {
         background-color: var(--tags-color);
         padding: 100px 0;
+        line-height: 1.5;
+        color: var(--our-team-background);
+        letter-spacing: 0.02em;
+                
 }
+
 
 .main-footer-list {
         max-width: 264px;
