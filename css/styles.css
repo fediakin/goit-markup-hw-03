@@ -55,6 +55,16 @@ img {
 
 }
 
+
+.div-index {
+        display: flex;
+        justify-content: center;
+}
+
+.div-index-title {
+        margin-bottom: 48px;
+}
+
 .header-navigation {
         display: flex;
         align-items: center;
@@ -196,6 +206,7 @@ img {
         /* SLATE */
         color: #434455;
 }
+
 
 .contact-link:hover,
 .contact-link:focus {
@@ -417,6 +428,7 @@ img {
 .title {
         background-color: var(--tags-color);
         padding: 188px 0;
+
 }
 
 .team {
