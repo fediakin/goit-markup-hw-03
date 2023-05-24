@@ -164,29 +164,12 @@ img {
         color: #4D5AE5;
 }
 
-.web-logo {
-        font-family: 'Raleway', sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-
-        /* identical to box height, or 117% */
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-
-        /* IRIS */
-        color: #4D5AE5;
-
-
-}
-
 .menu-link {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
+        display: block;
+        padding: 24px 0;
 
         /* identical to box height, or 150% */
         letter-spacing: 0.02em;
@@ -307,7 +290,6 @@ img {
         font-size: 36px;
         line-height: 1.11;
         text-transform: capitalize;
-        background-color: #FFFFFF;
 
         /* identical to box height, or 111% */
         text-align: center;
@@ -362,8 +344,6 @@ img {
         line-height: 1.5;
 
         /* identical to box height, or 150% */
-        display: flex;
-        align-items: center;
         text-align: center;
         letter-spacing: 0.04em;
 
