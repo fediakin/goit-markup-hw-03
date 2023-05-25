@@ -65,11 +65,16 @@ img {
 
 .div-index {
         display: flex;
-        justify-content: center;
+        
 }
 
 .div-index-title {
         margin-bottom: 48px;
+}
+
+.title-basic {
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .header-navigation {
@@ -161,8 +166,6 @@ img {
         line-height: 1.17;
 
         /* identical to box height, or 117% */
-        display: flex;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-right: 76px;
@@ -234,6 +237,7 @@ img {
         text-align: center;
         letter-spacing: 0.02em;
         max-width: 496px;
+        margin-bottom: 48px;
 
         color: var(--our-white-color);
 }
@@ -399,7 +403,8 @@ img {
         border: none;
         background-color: var(--buttons-color);
         border-radius: 4px;
-        
+        margin-left: auto;
+        margin-right: auto;
 
         /* WHITE */
         color: var(--our-white-color);
@@ -431,6 +436,9 @@ img {
 
 .main-footer-list {
         max-width: 264px;
+        line-height: 1.5;
+        color: var(--our-team-background);
+        letter-spacing: 0.02em;
 }
 
 .main-header {
@@ -487,4 +495,5 @@ img {
         line-height: 1.5;
         color: var(--our-team-background);
         letter-spacing: 0.02em;
+        max-width: 264px;
 }
